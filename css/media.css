@@ -1,0 +1,267 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600;700&display=swap');
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	/*E-school.html*/
+	*{font-family: 'Quicksand', sans-serif;}
+	.container {
+	    width: 100%;
+		}
+	.navbar-light .navbar-nav .nav-link {
+	    display: flex;
+		}
+	.navbar-nav {
+    	align-items: flex-end;
+	}
+	.flex {
+	    flex-direction: column;
+		align-content: flex-end;
+	}
+	.banner-section .flex{
+		flex-direction: row;
+		}
+
+	.banner-content {
+		width: 100%;
+		order: 0;
+		text-align: center;
+	}
+
+	.banner-content h1{
+		 width: 100%;
+		letter-spacing: 0.5px;
+    	line-height: 1;
+	}
+	.col-4 {
+		    width: 100%;
+			}
+	.col-4 img {
+	    width: 90%;
+	}
+	h3 {
+	    font-size: 25px;
+	}
+	.heading {
+		    font-size: 30px;
+	}
+	.col-3 {
+	    width: 100%;
+		}
+	.col-3 ul {
+    	align-items: flex-start;
+		}
+
+	.banner-image {
+			width: 100%;
+		    order: -1;
+		}
+	.banner-image img {
+	    width: 100%;
+		}
+
+	.client-img {
+	    width: 100%;
+	}
+	.client-content {
+	    width: 100%;
+	}
+	footer ul {
+    text-align: center;
+	}
+	footer .flex {
+    align-content: center;
+	}
+
+
+	/*signup.html*/
+
+	.signup {
+	    width: 100%;
+	    border-radius: 20px;
+	    background: #aac5aa;
+	    padding: 17px;
+	}
+	.signup .container{
+		width: 100%
+	}
+
+
+	/*others.html*/
+	.col{
+	    width: 100%;
+	    padding: 0;
+	}
+
+	/*about.html*/
+	article {
+	    width: 100%;
+	    padding: 30px;
+	}
+	.about p {
+	    font-size: 15px;
+	    line-height: 25px;
+	}
+
+}
+
+
+/* Small devices (Tablets, landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.signup {
+	    width: 85%;
+	    background: #aac5aa;
+	}
+}
+
+/* Small devices (Tablets 576px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.signup {
+	    width: 80%;
+	    background: #aac5aa;
+	}
+	/*about.html*/
+	article {
+	    width: 100%;
+	    padding: 30px;
+	}
+	.about p {
+	    font-size: 15px;
+	    line-height: 25px;
+	}
+}
+
+
+
+/* Large devices(md) (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+		.signup {
+	    width: 80%;
+	    background: #aac5aa;
+	}
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+*/
+/*
+*
+*
+*
+*
+*
+*
+*
+/****** Extra extra small devices (s6 mobiles, 320px and below) *******/
+@media (max-width: 320px), (max-width: 575.98px) {
+
+/*E-school.html*/
+	*{font-family: 'Quicksand', sans-serif;}
+	.container {
+	    width: 100%;
+		}
+	.navbar-light .navbar-nav .nav-link {
+	    display: flex;
+		}
+	.navbar-nav {
+    	align-items: flex-end;
+	}
+	.flex {
+	    flex-direction: column;
+		align-content: flex-end;
+	}
+	.banner-section .flex{
+		flex-direction: row;
+		}
+
+	.banner-content {
+		width: 100%;
+		order: 0;
+		text-align: center;
+	}
+
+	.banner-content h1{
+		 width: 100%;
+		letter-spacing: 0.5px;
+    	line-height: 1;
+	}
+	.col-4 {
+		    width: 100%;
+			}
+	.col-4 img {
+	    width: 90%;
+	}
+	h3 {
+	    font-size: 25px;
+	}
+	.heading {
+		    font-size: 30px;
+	}
+	.col-3 {
+	    width: 100%;
+		}
+	.col-3 ul {
+    	align-items: flex-start;
+		}
+
+	.banner-image {
+			width: 100%;
+		    order: -1;
+		}
+	.banner-image img {
+	    width: 100%;
+		}
+
+	.client-img {
+	    width: 100%;
+	}
+	.client-content {
+	    width: 100%;
+	}
+	footer ul {
+    text-align: center;
+	}
+	footer .flex {
+    align-content: center;
+	}
+
+
+	/*signup.html*/
+
+	.signup {
+	    width: 100%;
+	    border-radius: 20px;
+	    background: #aac5aa;
+	    padding: 17px;
+	}
+	.signup .container{
+		width: 100%
+	}
+
+
+	/*others.html*/
+	.col{
+	    width: 100%;
+	    padding: 0;
+	}
+
+	/*about.html*/
+	article {
+	    width: 100%;
+	    padding: 30px;
+	}
+	.about p {
+	    font-size: 15px;
+	    line-height: 25px;
+	}
+
+}
+
+/****** Extra extra small devices (s6 mobiles, 375px and below) *******/
+@media (min-width: 321px) and (max-width: 376px) {
+}

@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600;700&display=swap');
+
+
+*{
+    font-family: 'Quicksand', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+li{
+    list-style: none;
+}
+.container{
+    width: calc(100% - 100px);
+    margin: auto;
+    padding: 20px;
+}
+
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.align-center{
+    align-content: center;
+}
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+.btn{
+    background: #275227;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px 0px;
+}
+
+h3{
+    padding: 10px;
+}
+h4{
+    color: #b17200;
+}
+
+.banner-section{
+    background: #aac5aa;
+}
+header{
+    padding: 15px 0px;
+}
+
+
+/*nav*/
+.navbar-brand {
+    width: 70px;
+}
+.navbar-brand img, svg {
+    border-radius: 25%;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    display: block;
+    color: rgb(86 73 77);
+    font-weight: bolder;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: #fff;
+    background: #275227;
+}
+
+
+
+/*banner-content*/
+.banner-content{
+    width: 40%;
+    flex: 0 0 auto;
+}
+
+.banner-content h1{
+    width: 70%;
+    padding: 30px 0px;
+    font-size: 40px;
+    margin-right: 50px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+.banner-content span{
+    color: #275227;
+    letter-spacing: 1.5px;
+}
+.banner-content a{
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+
+.banner-content p{
+    font-size: 18px;
+    padding: 20px 0px;
+}
+
+
+
+/*banner-image*/
+.banner-image{
+    width: 60%;
+    flex: 0 0 auto;
+}
+.banner-image img{
+    display: block;
+    float: right;
+    width: 90%;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border-radius: 20px;
+    background: #e0e0e0;
+    box-shadow: 2px 7px 20px 0px #444242, -5px -5px 24px #8da292;
+}
+
+
+/*feature-section*/
+.feature-section{
+    padding: 20px;
+}
+.col-4{
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.col-4:hover{
+    box-shadow: 8px 8px 20px 1px #738c8c, 9px 8px 24px 4px #fffcfc;
+}
+.col-4 img{}
+
+
+
+/*Course-section*/
+.heading{
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #101010;
+    padding: 50px 0px;
+}
+.Course-section{}
+.Course-section span{}
+
+
+.col-3{
+    width: 33.33%;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+.col-3:hover{
+    box-shadow: 8px 8px 20px 1px #738c8c, 9px 8px 24px 4px #fffcfc;
+}
+.col-3 a{}
+.col-3 a img{
+    border-radius: 10px;
+}
+.col-3 span{
+    color: #7b5714;
+    font-weight: 500;
+    display: block;
+    padding: 10px;
+}
+.col-3 ul{
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.col-3 i{}
+
+
+/*testimonial-section*/
+.testimonial-section .flex{
+    justify-content: center;
+    align-items: center;
+}
+.client-img{
+    width: 30%;
+    float: left;
+}
+.client-img img{
+    border-radius: 50%;
+}
+.client-content{
+    width: 50%;
+    float: right;
+    padding: 50px;
+    background: #aac5aa;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+.client-content p{
+    font-size: 15px;
+}
+
+
+/*footer*/
+footer{
+    background: #2b2b2d;
+    color: white;
+}
+footer p{
+    padding: 20px;
+    text-align: left;
+}
+footer ul{ text-align: left;}
+footer ul li{}
+footer ul li a{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 100;
+    display: block;
+}
+footer ul li strong{
+    color: #dff94e;
+    font-size: 16px;
+}
+
+footer .flex{
+    justify-content: center;
+    padding: 5px;
+}
+footer strong{
+    font-size: 15px;    
+    font-weight: 100;
+}
+
+footer .col-4:hover{
+    box-shadow: none;
+}
