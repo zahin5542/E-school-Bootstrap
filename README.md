@@ -1,2 +1,2 @@
-# New-nav-E-school-Bootstrap
+# E-school-Bootstrap
  Project using html, bootstrap & js
