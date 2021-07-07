@@ -105,6 +105,17 @@
 	    line-height: 25px;
 	}
 
+	.fixed-top {
+    position: fixed;
+    top: 64px;
+    right: 0%;
+    left: 80%;
+    z-index: 1030;
+}
+.stick{
+	display: none;
+}
+
 }
 
 
@@ -113,6 +124,9 @@
 	.signup {
 	    width: 85%;
 	    background: #aac5aa;
+	}
+	.navbar-nav {
+    	align-items: flex-end;
 	}
 }
 
@@ -131,9 +145,9 @@
 	    font-size: 15px;
 	    line-height: 25px;
 	}
+
+
 }
-
-
 
 /* Large devices(md) (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -146,6 +160,10 @@
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+	.signup {
+	    background: #aac5aa;
+	}
+}
 }
 
 */
